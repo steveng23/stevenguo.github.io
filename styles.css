@@ -226,6 +226,16 @@ body{
 	color: #9153c9;
 }
 
+.right_inner .li_wrap .info_title_form{
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: #9153c9;
+	margin-top: 5px;
+	margin-left: 50px;
+	text-align: right;
+}
+
 .right_inner .li_wrap .info_com{
 	font-weight: 300;
 	font-size: 14px;
@@ -236,6 +246,7 @@ body{
 	margin-top: 15px;
 }
 
+/* this is the bullet point */
 .right_inner .li_wrap .info:before{
 	content: "";
 	position: absolute;
@@ -247,6 +258,7 @@ body{
 	border-radius: 50%;
 }
 
+/* this is the line udner the bullet point */
 .right_inner .li_wrap .info:after{
 	content: "";
 	position: absolute;
