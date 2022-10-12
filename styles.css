@@ -52,7 +52,20 @@ body{
 	color: #fff;
 	position: relative;
 	text-align: right;
-	margin-bottom: 15px;
+	margin-bottom: 25px;
+	margin-top: 0px;
+}
+.title2{
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	padding-bottom: 10px;
+	color: #fff;
+	position: relative;
+	text-align: right;
+	margin-bottom: 25px;
+	margin-top: 30px;
 }
 .textAreaRestrict{
 	resize: vertical; 
@@ -72,6 +85,17 @@ max-height: 200px;
 }
 
 .title:before{
+	/* This is the underline under the title */
+	content: "";
+	position: absolute;
+	top: 35px;
+	right: 0;
+	width: 50px;
+	height: 3px;
+	background: #fff;
+}
+
+.title2:before{
 	/* This is the underline under the title */
 	content: "";
 	position: absolute;
