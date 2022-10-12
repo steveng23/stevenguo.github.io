@@ -54,6 +54,10 @@ body{
 	text-align: right;
 	margin-bottom: 15px;
 }
+.textAreaRestrict{
+	resize: vertical; 
+max-height: 200px;
+}
 
 .titleCenter{
 	font-size: 24px;
@@ -265,6 +269,6 @@ body{
 	top: 10px;
 	left: 4px;
 	width: 2px;
-	height: 90%;
+	height: 92%;
 	background: #9153c9;
 }
